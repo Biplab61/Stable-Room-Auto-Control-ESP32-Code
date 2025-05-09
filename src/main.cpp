@@ -8,10 +8,10 @@
 #include <ArduinoJson.h>
 
 // API Token and Endpoints
-String bearerToken = "A7F19D4C2B9E63FA5DB62C8E3E914F";
-String updateDataURL = "http://192.168.1.11:3000/api/p/stable-room-device/update-data";
-String thresholdURL = "http://192.168.1.11:3000/api/p/stable-room-device/threshold?device_no=D01";
-String alertMailURL = "http://192.168.1.11:3000/api/p/stable-room-device/alert-mail";
+String bearerToken = "";
+String updateDataURL = "";
+String thresholdURL = "";
+String alertMailURL = "";
 
 // Sensor and thresholds
 Adafruit_SHT4x sht4 = Adafruit_SHT4x();
